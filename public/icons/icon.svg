@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="KKFans WhatsApp 助手">
+  <defs>
+    <linearGradient id="background" x1="18" y1="12" x2="108" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19B987"/>
+      <stop offset="1" stop-color="#08745B"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="29" fill="url(#background)"/>
+  <path d="M36 29h56c9.4 0 17 7.6 17 17v31c0 9.4-7.6 17-17 17H59L38.5 106c-3.5 2-7.6-.9-6.9-4.9L33 92.8A17 17 0 0 1 19 76V46c0-9.4 7.6-17 17-17Z" fill="#fff"/>
+  <circle cx="48" cy="62" r="6" fill="#0B8665"/>
+  <circle cx="64" cy="62" r="6" fill="#0B8665"/>
+  <circle cx="80" cy="62" r="6" fill="#0B8665"/>
+</svg>

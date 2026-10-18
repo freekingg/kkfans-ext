@@ -1,0 +1,18 @@
+:root { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; color: #20392e; background: #f3f7f5; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.voice-setup { display: flex; flex-direction: column; gap: 6px; height: 100dvh; min-height: 320px; padding: 8px; }
+iframe { display: block; width: 100%; flex: 1; min-height: 0; border: 1px solid #dce7e1; border-radius: 10px; background: white; }
+.voice-footer { display: flex; align-items: center; justify-content: flex-end; gap: 8px; min-height: 28px; }
+.voice-feedback { flex: 1; min-width: 0; max-height: 25dvh; overflow: auto; }
+.voice-feedback p { margin: 0; color: #607569; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+.voice-feedback .success { color: #087a54; }
+.voice-feedback .error { color: #a23b29; }
+.voice-actions { display: flex; flex-shrink: 0; gap: 4px; }
+.voice-actions button, .voice-actions a { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; padding: 0; border: 0; border-radius: 7px; background: transparent; color: #6c8176; cursor: pointer; }
+.voice-actions button:hover, .voice-actions a:hover { color: #087a54; background: #e9f7ef; }
+button:disabled { opacity: .6; cursor: wait; }
+button:focus-visible, a:focus-visible { outline: 2px solid #078260; outline-offset: 2px; }
+.spin { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spin { animation: none; } }
